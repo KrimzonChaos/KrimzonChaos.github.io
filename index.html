@@ -1,11 +1,74 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shaun Becker | Portfolio</title>
+    <meta name="description" content="Capstone portfolio and project artifacts." />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <h1>Shaun Becker</h1>
-    <p>SNHU Capstone</p>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div class="brand">Shaun Becker</div>
+            <div class="tag">Technology Consultant | CS Capstone</div>
+        </div>
+    </div>
+
+
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome to My Software Engineering Portfolio</h1>
+            <p class="subtitle">This portfolio is part of my BS in Computer Science capstone. It highlights my growth
+                across full stack development, data work, and security.</p>
+            <div class="pills">
+                <div class="pill"><b>Efficient algorithms</b> — practical solutions with clear runtime tradeoffs</div>
+                <div class="pill"><b>Modular system design</b> — clean components that are easy to test and maintain
+                </div>
+                <div class="pill"><b>Secure data operations</b> — sound practices for auth, validation, and storage
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="artifacts">
+            <h2>Capstone Artifacts</h2>
+            <div class="list">
+                <div class="card">🛠️ <strong>Software Engineering:</strong> Refactor with tests for a course manager
+                    API — <a href="#">view repo</a></div>
+                <div class="card">📊 <strong>Algorithms & Data Structures:</strong> Balanced tree enhancements with
+                    complexity analysis — <a href="#">read notes</a></div>
+                <div class="card">🗄️ <strong>Databases:</strong> Lightweight SQL and NoSQL interface with focus on
+                    efficiency — <a href="#">see demo</a></div>
+            </div>
+        </section>
+
+
+        <section class="section" id="coming">
+            <h2>Coming Soon</h2>
+            <ul class="todo">
+                <li>▶️ Code Review Video</li>
+                <li>📝 Artifact Narratives</li>
+                <li>✅ Professional Self‑Assessment</li>
+            </ul>
+        </section>
+
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <div class="card">Email: <a href="mailto:you@example.com">you@example.com</a> · GitHub: <a
+                    href="https://github.com/USERNAME" target="_blank" rel="noopener">github.com/USERNAME</a></div>
+        </section>
+
+
+        <footer>
+            © <span id="y"></span> Shaun Becker | Built with GitHub Pages
+        </footer>
+    </main>
+
+
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
+
 </html>
