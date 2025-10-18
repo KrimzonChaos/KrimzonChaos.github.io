@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile Apps | Shaun Becker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand"><a href="index.html" style="text-decoration:none;color:inherit;">Shaun Becker</a></div>
+      <div class="tag">End User Support Senior | CS-499 Capstone</div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="section">
+      <h1>Algorithms and Data Structures</h1>
+      <p>
+        My second enhancement for my capstone project is from CS-340. The main focus for this is my animalShelter.py file from the Grazioso Salvare project. 
+        It was originally built as a CRUD module that connects to a MongoDB database for managing animal shelter data. I chose this artifact because it fits 
+        perfectly for enhancement of two which is algorithms and data structures. This shows how I can adjust a program more efficient and practical. For my enhancement 
+        I added caching and multi-key sorting to the read method. Caching helps speed up database reads by saving results from previous queries in a small dictionary, 
+        so repeated lookups don’t have to hit the database again. The multi-key sorting lets users sort by more than one field. Like sorting by animal_type and then 
+        by date_of_birth. The caching uses a dictionary for quick lookups, and the sorting uses lists and tuples to handle multiple sort keys. Both of these changes 
+        make the program faster and more flexible. It also improved my understanding of performance and how small design choices can have a big impact. While making 
+        these updates, I learned how to balance simplicity and functionality. I kept the cache lightweight so it’s easy to maintain and clears automatically after 
+        changes. The hardest part was normalizing the sort input to handle different formats without breaking anything. 
+      </p>
+    </section>
+
+    <section class="section">
+        <h2>Downloads</h2>
+        <div class="list">
+            <div class="card">
+                Original Project —
+                <a href="https://github.com/KrimzonChaos/KrimzonChaos.github.io/tree/main/Enhancement%202/Original" target="_blank" rel="noopener">
+                    View on GitHub
+                </a>
+            </div>
+    
+            <div class="card">
+                Enhanced Project —
+                <a href="https://github.com/KrimzonChaos/KrimzonChaos.github.io/tree/main/Enhancement%202/Enhanced" target="_blank" rel="noopener">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+      <h2>Screenshots</h2>
+      <div class="card">
+        <img src="assets/Algorithms1.JPG" alt="Screenshot of Android app" style="max-width:100%;border-radius:12px;">
+      </div>
+      <div class="card">
+        <img src="assets/Algorithms2.JPG" alt="Screenshot of Android app" style="max-width:100%;border-radius:12px;">
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">© <span id="y"></span> Shaun Becker • <a href="index.html">Back to Home</a></footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

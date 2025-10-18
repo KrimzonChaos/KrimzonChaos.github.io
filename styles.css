@@ -57,7 +57,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 50;
-    background: linear-gradient(180deg, rgba(249, 115, 22, .15), transparent 65%);
+    background: linear-gradient(180deg, rgba(249, 115, 22, .15), var(--bg-soft) 0%);
     border-bottom: 1px solid var(--line)
 }
 
@@ -162,16 +162,6 @@ h2 {
 
 .card a:hover {
     text-decoration: underline
-}
-
-/* Coming soon items */
-.todo li {
-    list-style: none;
-    margin: 8px 0;
-    padding: 10px 12px;
-    background: var(--bg-softer);
-    border: 1px solid var(--line);
-    border-radius: 10px
 }
 
 /* Footer */
